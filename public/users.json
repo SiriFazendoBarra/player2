@@ -1,0 +1,38 @@
+{
+    "users": [
+        {
+            "logged": false,
+            "id": "u001",
+            "username": "Messi",
+            "password": "1",
+            "email": "messi@email.com",
+            "name": "Lionel Messi",
+            "address": "",
+            "birthdate": "",
+            "favorites": [
+                "p003"
+            ],
+            "cart": [
+                {
+                    "id": "p004",
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "logged": false,
+            "id": "u002",
+            "username": "Cristiano",
+            "password": "",
+            "email": "2",
+            "name": "Cristiano Ronaldo",
+            "address": "",
+            "birthdate": "",
+            "favorites": [
+                "p005",
+                "p001"
+            ],
+            "cart": []
+        }
+    ]
+}

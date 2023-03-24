@@ -1,0 +1,21 @@
+@import "variables.scss";
+
+///fonts
+@import url('https://fonts.cdnfonts.com/css/sf-intermosaic');
+// font-family: 'SF Intermosaic', sans-serif;
+// font-family: 'SF Intermosaic B', sans-serif;
+@import url('https://fonts.cdnfonts.com/css/cubicfive');
+// font-family: 'CubicFive10', sans-serif;
+// font-family: 'CubicFive11', sans-serif;
+// font-family: 'CubicFive12', sans-serif;
+// font-family: 'CubicFive18', sans-serif;
+
+@import "../../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+@import "custom.scss";
+
+@import "animations.scss";
+@import "cards.scss";
+@import "navbar.scss";
+@import "nav2.scss";

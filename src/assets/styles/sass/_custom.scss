@@ -1,0 +1,148 @@
+body {
+    color: var(--color-white);
+    text-align: justify;
+    font-family: 'SF Intermosaic', sans-serif
+}
+
+.App {
+    background-color: $black;
+    display: grid;
+    row-gap: 10px;
+    grid-template-areas: "navbar"
+        "nav2"
+        "view"
+        "footer";
+}
+
+.App>:nth-child(1) {
+    grid-area: navbar;
+}
+
+.App>:nth-child(2) {
+    grid-area: nav2;
+    background-color: var(--color-black);
+}
+
+.App>:nth-child(3) {
+    grid-area: view;
+    min-height: calc(100vh - 200px);
+    background-color: $dark;
+
+}
+
+.App>:nth-child(4) {
+    grid-area: footer;
+    background-color: $dark;
+    padding: 1rem 0px 1rem 0px;
+}
+
+a {
+    color: $white;
+    text-decoration: none;
+
+    &:hover {
+        color: $white;
+        text-decoration: none;
+    }
+}
+
+.marketSection {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 12rem), 1fr));
+    gap: 1rem;
+}
+
+.InputGroup {
+    max-width: 500px;
+}
+
+.logo {
+    max-width: 70px;
+}
+
+
+
+.itemCard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+    gap: 1rem;
+    background-color: var(--color-primary);
+
+    div {
+
+        .img-item {
+            zoom: 2;
+        }
+    }
+}
+
+.cart-list-item {
+    background-color: var(--color-primary);
+    border-radius: 4px;
+
+
+    .tr-img {
+        width: 100px;
+    }
+
+    img {
+        zoom: 1;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
+
+.ico-email {
+    font-size: 3rem;
+}
+
+
+
+.about-page {
+    div {
+        max-width: 800px;
+
+        .about-img-div {
+            max-width: 500px;
+        }
+
+    }
+}
+
+
+.cart-count {
+    transform: scale(0.5) !important;
+}
+
+.bg-1er {
+    background-color: var(--color-primary);
+}
+
+.emailRegistered {
+    height: 30px;
+    position: absolute;
+    object-position: 50% 50%;
+    border-radius: 0 8px 8px 0;
+}
+
+.price {
+    font-family: 'SF Intermosaic', sans-serif
+}
+
+.btn-delete {
+    font-size: 0.7rem;
+    background-color: $secondary;
+    transition-duration: 0.3s;
+
+    &:hover {
+        background-color: $dark;
+        color: $light;
+        transform: scale(1.2);
+    }
+
+}
+
+.terms {
+    font-size: 0.8rem;
+}

@@ -1,0 +1,76 @@
+{
+    "results": [
+        {
+            "id": "p001",
+            "title": "Gameboy",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque blandit ligula, non venenatis turpis. Vivamus quam nibh, gravida sit.",
+            "price": "95",
+            "img": "/gameboy.jpg",
+            "category": "consoles"
+        },
+        {
+            "id": "p002",
+            "title": "Nintendo 64",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque blandit ligula, non venenatis turpis. Vivamus quam nibh, gravida sit.",
+            "price": "78",
+            "img": "/nintendo64.jpg",
+            "category": "consoles"
+        },
+        {
+            "id": "p003",
+            "title": "Control xbox s inalambrico blanco",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque blandit ligula, non venenatis turpis. Vivamus quam nibh, gravida sit.",
+            "price": "89",
+            "img": "/Control-xbox-s inalambrico-blanco.jpg",
+            "category": "accesories"
+        },
+        {
+            "id": "p004",
+            "title": "Super Mario catridge",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque blandit ligula, non venenatis turpis. Vivamus quam nibh, gravida sit.",
+            "price": "35",
+            "img": "/supermariocatridge.jpg",
+            "category": "games"
+        },
+        {
+            "id": "p005",
+            "title": "Super nintendo",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque blandit ligula, non venenatis turpis. Vivamus quam nibh, gravida sit.",
+            "price": "25",
+            "img": "/supernintendo.jpg",
+            "category": "consoles"
+        },
+        {
+            "id": "p006",
+            "title": "Teclado Gamer Logitech",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque blandit ligula, non venenatis turpis. Vivamus quam nibh, gravida sit.",
+            "price": "120",
+            "img": "/teclado-gamer.jpg",
+            "category": "accesories"
+        },
+        {
+            "id": "p007",
+            "title": "Mouse gamer Logitech",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque blandit ligula, non venenatis turpis. Vivamus quam nibh, gravida sit.",
+            "price": "150",
+            "img": "/mouse-gamer.jpg",
+            "category": "accesories"
+        },
+        {
+            "id": "p008",
+            "title": "Gameboy Advance",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque blandit ligula, non venenatis turpis. Vivamus quam nibh, gravida sit.",
+            "price": "99",
+            "img": "/gameboy-advance.jpg",
+            "category": "consoles"
+        },
+        {
+            "id": "p009",
+            "title": "Pokemon yellow, GB advance",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque blandit ligula, non venenatis turpis. Vivamus quam nibh, gravida sit.",
+            "price": "49",
+            "img": "/pokemon-yellow-catridge-gameboyadvance.jpg",
+            "category": "games"
+        }
+    ]
+}

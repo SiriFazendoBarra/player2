@@ -1,0 +1,54 @@
+.card {
+    font-size: 16px;
+    font-weight: 300;
+    transition-duration: 0.3s;
+
+
+    &:hover {
+        box-shadow: 0px 0px 8px 2px $light;
+    }
+
+    .CardImg {
+        height: 200px;
+        zoom: 1.1;
+        object-fit: cover;
+        background-color: $white;
+    }
+
+    .card-body {
+        min-height: 150px;
+        overflow: hidden;
+
+        .card-title {
+            font-family: 'SF Intermosaic', sans-serif;
+            font-size: 1rem;
+            max-height: rem;
+            overflow: hidden;
+        }
+    }
+
+    div {
+
+        p {
+            text-shadow: 0 0 0.5rem $dark;
+
+            &:nth-child(1) {
+                font-size: 0.7rem;
+            }
+        }
+
+    }
+
+
+}
+
+.likeButton {
+    transition-duration: 0.3s;
+    color: $dark;
+
+    &:hover {
+        z-index: 1111;
+        filter: drop-shadow(0px 0px 0.2rem $dark);
+        color: $white;
+    }
+}

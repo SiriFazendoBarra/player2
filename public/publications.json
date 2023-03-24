@@ -1,0 +1,31 @@
+{
+    "results": [
+        {
+            "owner": "u001",
+            "id": "p011",
+            "title": "Zelda Breath of the Wild, catridge",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque blandit ligula, non venenatis turpis. Vivamus quam nibh, gravida sit.",
+            "price": "90",
+            "img": "/zelda-breath-of-the-wild.jpg",
+            "category": "games"
+        },
+        {
+            "owner": "u001",
+            "id": "p012",
+            "title": "Nintendo Switch full setup",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque blandit ligula, non venenatis turpis. Vivamus quam nibh, gravida sit.",
+            "price": "350",
+            "img": "/nintendo-switch.jpg",
+            "category": "consoles"
+        },
+        {
+            "owner": "u002",
+            "id": "p013",
+            "title": "Headset gaming Red Dragon H320 RGB",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque blandit ligula, non venenatis turpis. Vivamus quam nibh, gravida sit.",
+            "price": "100",
+            "img": "/audifono-gamer.jpg",
+            "category": "accesories"
+        }
+    ]
+}

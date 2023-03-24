@@ -1,0 +1,39 @@
+.navbar {
+    color: $white;
+
+    div {
+        form {
+            div {
+                input {
+                    font-size: 0.9rem;
+                }
+
+                button {
+                    font-size: 0.9rem;
+                }
+
+            }
+        }
+
+        div {
+            font-size: 2rem;
+
+            a {
+                svg {
+                    transition-duration: 0.3s;
+                    color: $white;
+                    filter: drop-shadow(0px 0px 0.2rem $black);
+                    width: 100%;
+
+
+                    &:hover {
+                        z-index: 1111;
+                        filter: drop-shadow(0px 0px 0.2rem $light);
+                        color: $light;
+                    }
+                }
+            }
+        }
+    }
+
+}
