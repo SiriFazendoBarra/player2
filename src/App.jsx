@@ -20,7 +20,7 @@ import About from './views/About'
 import Emailus from './views/Emailus'
 import Terms from './views/Terms'
 import ProtectedRoute from './components/ProtectedRoute'
-import Test from './views/Test'
+
 
 function App() {
 
@@ -31,7 +31,7 @@ function App() {
       <NavBar />
       <Nav2 />
       <Routes>
-        <Route path='test' element={<Test />} />
+
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
         <Route path='/register' element={<Register />} />
